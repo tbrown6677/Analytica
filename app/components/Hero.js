@@ -11,12 +11,16 @@ export default function Hero() {
         Analytica uses a team of AI agents to analyze your business data and generate clear, actionable reports — automatically.
       </p>
       <div className="flex gap-4">
-        <button className="bg-violet-600 hover:bg-violet-500 text-white px-8 py-3 rounded-lg text-lg font-medium transition-colors">
-          Get Started Free
-        </button>
-        <button className="border border-gray-700 hover:border-gray-500 text-gray-300 px-8 py-3 rounded-lg text-lg font-medium transition-colors">
-          See How It Works
-        </button>
+        <a href="/signin">
+          <button className="bg-violet-600 hover:bg-violet-500 text-white px-8 py-3 rounded-lg text-lg font-medium transition-colors">
+            Get Started Free
+          </button>
+        </a>
+        <a href="/analyze">
+          <button className="border border-gray-700 hover:border-gray-500 text-gray-300 px-8 py-3 rounded-lg text-lg font-medium transition-colors">
+            See How It Works
+          </button>
+        </a>
       </div>
     </section>
   )
